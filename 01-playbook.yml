@@ -1,3 +1,4 @@
+
 - name: ping demo
 hosts: localhost # target ansible server itself
 connection: local #Ansibel server not expect the credentials  
