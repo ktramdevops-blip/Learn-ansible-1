@@ -1,7 +1,7 @@
 
 ---
 - name: ping demo
-  hosts: localhost # target ansible server itself
+  hosts: local # target ansible server itself
   connection: local # Ansible server does not need SSH credentials
 
   tasks:
