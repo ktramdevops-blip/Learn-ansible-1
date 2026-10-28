@@ -1,0 +1,37 @@
+- firstName: "Thualsi",
+  lastName: "Ram",
+  dob: "10/12.2026"
+  address:
+  - type : "permanent"
+    dorrNo : "1-443"
+    streetName: "Gandhi Naage"
+    city: "Hyderabad"
+  
+  - type : "Temporary"
+    dorrNo : "1-443"
+    streetName: "Gandhi Naage"
+    city: "Hyderabad"
+  
+    skills: 
+    OS: "Linux",
+    IDE: "Vscode",
+    CM: "Anisible" 
+
+- firstName: "Thualsi",
+  lastName: "Ram",
+  dob: "10/12.2026"
+  address:
+  - type : "permanent"
+    dorrNo : "1-443"
+    streetName: "Gandhi Naage"
+    city: "Hyderabad"
+  
+  - type : "Temporary"
+    dorrNo : "1-443"
+    streetName: "Gandhi Naage"
+    city: "Hyderabad"
+  
+    skills: 
+    OS: "Linux",
+    IDE: "Vscode",
+    CM: "Anisible"     

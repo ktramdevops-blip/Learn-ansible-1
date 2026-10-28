@@ -1,0 +1,27 @@
+{
+  "firstName": "Thualsi",
+  "lastName": "Ram",
+  "dob": "01/01/10",
+  "address": [
+    {
+      "type": "paramanent",
+      "doorNO": "1-888",
+      "streetName": "Gandhi Nagar",
+      "city": "Hyd"
+    },
+    {
+      "type": "Temporary",
+      "doorNO": "1-458",
+      "streetName": "Maruthi Nagar",
+      "city": "Banagalore"
+    }
+  ],
+  "skills": {
+    "OS": "Linux",
+    "IDE": "VS code",
+    "CM": "Ansible"
+  }
+
+
+}
+

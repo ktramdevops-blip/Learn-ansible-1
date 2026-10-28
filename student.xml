@@ -1,0 +1,20 @@
+# Student details write in XML
+#address tage inside text there is no camas(,) allowed
+# once write the code go to online beautify it 
+
+<Student>
+	<firstName>Thulasi</firstName>
+	<lastName>Ram</lastName>
+	<dob>01.01.01</dob>
+	<addresses>
+		<address type="Temporaray">
+			<doorNo>12/3</doorNo>
+			<streetName>Gandhi Nagar</streetName>
+			<city>Hyderabad</city>
+		</address>
+		<address type="permanent">
+			<doorNo>12/3</doorNo>
+			<streetName>Gandhi Nagar</streetName>
+			<city>Hyderabad</city>
+		</address>
+	</addresses>
