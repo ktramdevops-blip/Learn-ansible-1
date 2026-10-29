@@ -11,6 +11,6 @@
   connection: local
 
   tasks:
-    - name: print hello world!!
+    - name: print thulasi !!
       ansible.builtin.debug:
         msg: "Hello Ansibel!!"
