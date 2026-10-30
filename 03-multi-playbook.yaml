@@ -1,4 +1,4 @@
-- name: PLAY1 ...................................
+- name: PLAY1 
   hosts: local
   gather_facts: false
   connection: local
@@ -10,7 +10,7 @@
     - name: PLAY1 and TASK 2
       debug: 
         msg: "Hello for PLAY-1 and TASK-2"  
-- name: PLAY2 .....................................
+- name: PLAY2 
   hosts: local
   connection: local
   gather_facts: false
