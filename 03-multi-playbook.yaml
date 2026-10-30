@@ -24,3 +24,5 @@
         msg: "Hello for PLAY-1 and TASK-2"  
 # here play1 execute first and play 2 execute later thats it.  here indentation is 
 # imp
+#with this command u can run the this playbook
+# ansible-playbook -i inventory.ini 03-multi-playbook.yaml
