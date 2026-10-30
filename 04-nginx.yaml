@@ -1,0 +1,8 @@
+- name: istall amd start nginx
+    hosts: frontend 
+  tasks: 
+    - names: install nginx
+      poackage: 
+        name: nginx
+        state: present
+        
