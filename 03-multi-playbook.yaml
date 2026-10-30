@@ -1,5 +1,6 @@
 - name: PLAY1
   hosts: local
+  gather_facts: false
   connection: local
   tasks:
     - name: PLAY1 and TASK 1
@@ -12,6 +13,7 @@
 - name: PLAY2
   hosts: local
   connection: local
+  gather_facts: false
   tasks:
     - name: PLAY2 and TASK 1
       debug: 
