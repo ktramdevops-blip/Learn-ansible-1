@@ -2,10 +2,10 @@
   hosts: local
   vars:
     course: "Ansible"
-    triner: "Siva kumar M"
+    trainer: "Siva kumar M"
     duraton: 10hrs
   tasks:
     - name: practice the vars
       debug:
-        msg: "Hi am learning the {{couser}} fronm {{tainer}} with {{duration}}"
+        msg: "Hi am learning the {{course}} fronm {{trainer}} with {{duraton}}"
               
