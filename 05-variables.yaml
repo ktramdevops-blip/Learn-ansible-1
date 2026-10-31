@@ -1,0 +1,11 @@
+- name: demo on variables
+  hosts: local
+  vars:
+    course: "Ansible"
+    triner: "Siva kumar M"
+    duraton: 10hrs
+  tasks:
+    - name: practice the vars
+      dubug:
+        msg: "Hi am learning the {{couser}} fronm {{tainer}} with {{duration}}"
+              
