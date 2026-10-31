@@ -6,6 +6,6 @@
     duraton: 10hrs
   tasks:
     - name: practice the vars
-      dubug:
+      debug:
         msg: "Hi am learning the {{couser}} fronm {{tainer}} with {{duration}}"
               
