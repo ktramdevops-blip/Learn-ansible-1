@@ -1,0 +1,16 @@
+- name:
+  hosts: local
+  connection: local
+
+  vars_prompt:
+    - name: username
+      prompt: Please ente the username
+      private: false
+
+    - name: password
+      prompt: Please ente the password
+      private: true
+- tasks: 
+  -name: print the confedential information
+   debug:
+    msg: "Username is {{username}} and password is {{password}} "     
