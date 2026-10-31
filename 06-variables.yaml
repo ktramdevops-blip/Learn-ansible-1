@@ -1,7 +1,7 @@
 - name: Learning  on task level variables
   hosts: local
   vars:
-    property: 100 aces
+    property: 100aces
   tasks:
     - name: practice the vars
       debug:
@@ -9,6 +9,7 @@
               
 
     - name: print the vars again 
-      vars: 10aces 
+      vars: 
+        property: 10aces
       debug:
         msg: "Hi i got property 100aces from my father{{property}}"           
