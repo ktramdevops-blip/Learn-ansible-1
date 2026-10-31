@@ -11,6 +11,6 @@
       prompt: Please ente the password
       private: true
 - tasks: 
-  -name: print the confedential information
-   debug:
-    msg: "Username is {{username}} and password is {{password}} "     
+  - name: print the confedential information
+    debug:
+     msg: "Username is {{username}} and password is {{password}} "     
