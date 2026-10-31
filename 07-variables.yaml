@@ -1,0 +1,9 @@
+- name: variables from from files 
+  hosts: local
+  connections: local
+  vars_files:
+    - course.yamal
+  tasks:
+    - name: print course information
+      debug:
+        msg: "Hi I am learning {{course}} from {{trainer} with {{duraton}}}"  
