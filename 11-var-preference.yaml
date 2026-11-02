@@ -3,13 +3,13 @@
   connection: local
   vars:
     course: "Ansible  for PLAY"
-  vars_prompt:
-    - name: course
-      prompt: Please enter your course
-      private: false  
+  # vars_prompt:
+  #   - name: course
+  #     prompt: Please enter your course
+  #     private: false  
    
-  vars_files:
-    - course.yaml
+  # vars_files:
+  #   - course.yaml
   tasks:
     - name: print course information
       # vars:
@@ -22,6 +22,9 @@
 #with out args 
 # ansible-playbook -i inventory.ini 11-var-preference.yaml
 # 2nd preference task level
+# 3rd preference preference 
+# 4th peference  prompt
+
 
 
 
