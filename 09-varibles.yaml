@@ -1,6 +1,6 @@
 #How we can set the variables in inventory let go.....
 - name: variables from inventory
-  hosts: local # Here target the forntend 
+  hosts: frontend # Here target the forntend 
   tasks:
     - name: print the variables
       debug:
