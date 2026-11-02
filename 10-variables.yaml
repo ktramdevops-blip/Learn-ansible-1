@@ -5,3 +5,6 @@
     - name: print greetings
       debug: 
         msg: "{{person_name}}"
+
+  # in the program through command line we cam pass the arguments 
+  #  ansible-playbook -i inventory.ini 10-variables.yaml -e 'person_name="Thulasi Ram"'      
