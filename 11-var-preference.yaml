@@ -12,7 +12,16 @@
     - course.yaml
   tasks:
     - name: print course information
-      vars:
-        course: "ansible from task"
+      # vars:
+      #   course: "ansible from task"
       debug:
           msg: "Hi I am learning {{course}} "  
+
+   # 1st preference always take from CMD(command line ok)
+   #ansible-playbook -i inventory.ini 11-var-preference.yaml -e "course=Ansible from CMD"
+#with out args 
+# ansible-playbook -i inventory.ini 11-var-preference.yaml
+# 2nd preference task level
+
+
+
