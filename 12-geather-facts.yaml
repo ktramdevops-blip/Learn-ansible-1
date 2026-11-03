@@ -4,4 +4,4 @@
   tasks:
     - name: print the facts
       debug:
-        mesg: "{{ansible_facts}}" # special variable
+        msg: "{{ansible_facts}}" # special variable
